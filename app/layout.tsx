@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./providers";
+import { Cursor } from "./components/Cursor";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -10,8 +11,8 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Aditya Patil",
-  description: "All about me",
+  title: "Raj Yadav | Full-Stack Developer",
+  description: "Raj Yadav is a Computer Science Engineering student building full-stack applications, backend services, mobile apps, and AI-powered tools.",
 };
 
 export default function RootLayout({
@@ -25,7 +26,14 @@ export default function RootLayout({
         className={`${dmSans.variable} antialiased transition-colors duration-300`}
       >
         <ThemeProvider>
-          {children}
+          <Cursor
+            name="User"
+            cursorColor="pink"
+            customSVG=""
+            svgClassName=""
+          >
+            {children}
+          </Cursor>
         </ThemeProvider>
       </body>
     </html>

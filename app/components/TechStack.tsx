@@ -8,52 +8,59 @@ const categories = [
     {
         name: "Languages",
         skills: [
-            { name: "Go", slug: "go" },
-            { name: "Python", slug: "python" },
-            { name: "TypeScript", slug: "typescript" },
             { name: "JavaScript", slug: "javascript" },
+            { name: "TypeScript", slug: "typescript" },
+            { name: "Python", slug: "python" },
+            { name: "C", slug: "c" },
             { name: "C++", slug: "cplusplus" },
         ]
     },
     {
         name: "Frontend",
         skills: [
-            { name: "React", slug: "react" },
+            { name: "React.js", slug: "react" },
             { name: "Next.js", slug: "nextdotjs" },
             { name: "Tailwind CSS", slug: "tailwindcss" },
-            { name: "Shadcn UI", slug: "shadcnui" },
-            { name: "Framer Motion", slug: "framer" },
+            { name: "HTML", slug: "html5" },
+            { name: "CSS", slug: "css" },
+            { name: "React Native", slug: "react" },
         ]
     },
     {
-        name: "Backend & DB",
+        name: "Backend",
         skills: [
-            { name: "FastAPI", slug: "fastapi" },
             { name: "Node.js", slug: "nodedotjs" },
+            { name: "Express.js", slug: "express" },
+            { name: "NestJS", slug: "nestjs" },
+        ]
+    },
+    {
+        name: "Databases",
+        skills: [
+            { name: "MySQL", slug: "mysql" },
             { name: "PostgreSQL", slug: "postgresql" },
             { name: "MongoDB", slug: "mongodb" },
             { name: "Redis", slug: "redis" },
-            { name: "FireBase", slug: "firebase" },
         ]
     },
     {
-        name: "Infra & Tools",
+        name: "Cloud & Tools",
         skills: [
             { name: "Docker", slug: "docker" },
-            { name: "Google Cloud", slug: "googlecloud" },
-            { name: "Vercel", slug: "vercel" },
             { name: "Git", slug: "git" },
             { name: "GitHub", slug: "github" },
-            { name: "Linux", slug: "linux" },
-            { name: "Nginx", slug: "nginx" },
+            { name: "AWS", slug: "amazonaws" },
+            { name: "Amazon EC2", slug: "amazonec2" },
+            { name: "Amazon S3", slug: "amazons3" },
+            { name: "AWS IAM", slug: "amazoniam" },
         ]
     },
     {
-        name: "AI & ML",
+        name: "Operating Systems",
         skills: [
-            { name: "Hugging Face", slug: "huggingface" },
-            { name: "PyTorch", slug: "pytorch" },
-            { name: "Pandas", slug: "pandas" },
+            { name: "Ubuntu", slug: "ubuntu" },
+            { name: "Windows", slug: "windows" },
+            { name: "Linux", slug: "linux" },
         ]
     }
 ];
